@@ -1,0 +1,244 @@
+doctype
+html
+    head
+        meta(charset="utf-8")
+        title 精英吧
+        link(rel="stylesheet",href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css")
+        script(type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js")
+        script(type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js")
+        link(rel="stylesheet",href="../css/index.css")
+        link(rel="stylesheet",href="../css/public.css")
+    body
+        include header.jade
+        //中间部分
+        div.main
+            //bannerlogin
+            div.bannerlogin
+                //banner
+                div.banner
+                    ul.list-unstyled
+                        li.active
+                            a(href="#")
+                                img(src="../img/banner.png")
+                        li
+                            a(href="#")
+                                img(src="../img/banner2.png")
+                        li
+                            a(href="#")
+                                img(src="../img/banner3.png")
+                    ol.list-styled.list-inline
+                        li.active
+                        li
+                        li
+                //login登录
+                div.login
+                    div.person_top
+                        a(href="#")
+                            img(src="../img/person_login.png")
+                        div
+                            i.text Hi
+                            span ,&nbsp;您好!
+                            p 欢迎来到精英吧。
+                    div.person_login
+                        a(href="../html/login.html").denglu 登录
+                        a(href="../html/register.html") 注册
+                    div.person_guide
+                        div.person_guide_top
+                            p 新手入门
+                            a(href="#") 了解精英吧>
+                        ul.list-unstyled.person_guide_main
+                            li
+                                a(href="#")
+                                    strong.one
+                                    span 1.&nbsp;&nbsp;理论知识
+                            li
+                                a(href="#")
+                                    strong.tow
+                                    span 2.&nbsp;&nbsp;大牛答疑
+                            li
+                                a(href="#")
+                                    strong.three
+                                    span 3.&nbsp;&nbsp;在线评估
+                            li
+                                a(href="#")
+                                    strong.four
+                                    span 4.&nbsp;&nbsp;线下实训
+                    div.person_bottom
+                        ul.list-unstyled.list-inline
+                            li
+                                a(href="#") 奖学
+                            li
+                                a(href="#") 就业
+                            li
+                                a(href="#") 圈子
+            //banner下面的内容  banner_bottom
+            div.banner_bottom
+                div
+                    a(href="#")
+                        strong.one
+                        h4 课程学习
+                        p 采用在线教学模式，学习理论课程，让你快速完成理论知识的搭建
+                div
+                    a(href="#")
+                        strong.two
+                        h4 学习指导
+                        p 不知道该学什么，我们将有在线职业规划师为你进行学习指导
+                div
+                    a(href="#")
+                        strong.three
+                        h4 有问必答
+                        p 利用手机通过算法将你的问题推送给老师，一对一为你实时解答
+                div
+                    a(href="#")
+                        strong.four
+                        h4 招聘就业
+                        p 我们鼓励学习，学习达标的学员我们向企业推荐
+                div.last
+                    a(href="#")
+                        strong.five
+                        h4 带你走进互联网
+                        p 行业专家为你提供最新最前沿的互联网思维和讯息，快速了解互联网
+            //精英吧在线课程
+            div.online
+                h2 精英吧在线课程
+                ul.list-unstyled
+                    li.one
+                        a(href="../html/course_list.jade")
+                    li.two
+                        a(href="#") 正在录制,敬请期待!
+                    li.three
+                        a(href="#") 正在录制,敬请期待!
+                    li.four
+                        a(href="#") 正在录制,敬请期待!
+                    li.five
+            //不一样的学习方式：你学习的不仅仅是技能
+            div.learningstyle
+                h2 不一样的学习方式：你学习的不仅仅是技能
+                ul.list-unstyled
+                    li
+                        a(href="#")
+                            img(src="../img/learningstyle_ico1.png")
+                            span 同学一起学
+                            p 精准的算法，让你在学习的道路上不孤单，和志同道合，能力相当的同学为伴一起在学习的路上打怪升级，刷副本。
+                    li
+                        a(href="#")
+                            img(src="../img/learningstyle_ico2.png")
+                            span 学习顾问指引
+                            p 贴心的学习顾问，当你遇到困难，学习动力不足，对学习方向和未来迷茫，出手相助。
+                    li
+                        a(href="#")
+                            img(src="../img/learningstyle_ico3.png")
+                            span 奖学制度
+                            p 每个时代都需要天才，但是也需要勤奋刻苦的人才，对，就是你，你学的好，我们就要奖励你，我们要助推你成为社会的精英。
+                    li.last
+                        a(href="#")
+                            img(src="../img/learningstyle_ico4.png")
+                            span 有问必答
+                            p 遇到困难不要怕，上千名认证专家在线支持答疑，只要你提问，我们就回答。
+            //就业人员信息
+            div.obtain_user
+                h2 目前我们共有超过
+                    i 20000
+                    h2 注册学习用户
+                span 目前已经有超过10000名学生就业
+                ul.list-unstyled
+                    li
+                        a(href="#")
+                            img(src="../img/learninguser1.png")
+                            span 王*
+                            span 北京嘉丁母婴健康科技
+                            span iOS开发工程师
+                            p 薪资
+                            h4 12000元/月
+                    li
+                        a(href="#")
+                            img(src="../img/learninguser2.png")
+                            span 孙**
+                            span 北京海游科技
+                            span Cocos2d-x
+                            p 薪资
+                            h4 12000元/月
+                    li
+                        a(href="#")
+                            img(src="../img/learninguser3.png")
+                            span 陈**
+                            span 软通动力
+                            span iOS开发工程师
+                            p 薪资
+                            h4 11000元/月
+                    li
+                        a(href="#")
+                            img(src="../img/learninguser4.png")
+                            span 刘*
+                            span 众信利华
+                            span iOS开发工程师
+                            p 薪资
+                            h4 12000元/月
+                    li.last
+                        a(href="#")
+                            img(src="../img/learninguser5.png")
+                            span 孙*
+                            span 国富商通
+                            span iOS开发工程师
+                            p 薪资
+                            h4 10000元/月
+            //合作机构
+            div.agency
+                h2 合作机构
+                div.box
+                    div.box_ul
+                        ul.list-unstyled
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation1.png")
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation2.png")
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation3.png")
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation4.png")
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation5.png")
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation6.png")
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation7.png")
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation8.png")
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation9.png")
+                            li
+                                a(href="#")
+                                    img(src="../img/cooperation10.png")
+                    span.agency_left
+                    span.agency_right
+        include footer.jade
+        //回到顶部
+        div.to_top
+            ul.list-unstyled
+                li.publicnumber
+                    a(href="#")
+                        img(src="../img/publicnumber.png")
+                        span 公众号
+                    div.tan_publicnumber
+                        img(src="../img/tan_publicnumber.png")
+                li
+                    a(href="#")
+                        img(src="../img/wenjuan.png")
+                        span 问卷调查
+                li
+                    a(href="#")
+                        img(src="../img/leave.png")
+                        span 在线留言
+                li.returnto_top
+                    a(href="javascript:;")
+    script(type="text/javascript",src="../js/header.js")
+    script(type="text/javascript",src="../js/index.js")

@@ -1,0 +1,85 @@
+doctype
+html
+    head
+        meta(charset="utf-8")
+        title 注册
+        link(rel="stylesheet",href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css")
+        script(type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js")
+        script(type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js")
+        link(rel="stylesheet",href="../css/public.css")
+        link(rel="stylesheet",href="../css/index.css")
+    body
+        div.login_header
+            div.login_content
+                div.logo
+                    a(href="../html/index.html")
+                        img(src="../img/logo.png")
+                        span 发掘你的价值
+                ul.list-unstyled.list-inline.login_ul
+                    li.active
+                        a(href="#") iOS
+                    li
+                        a(href="#") Android
+                    li
+                        a(href="#") Unity3D
+                    li
+                        a(href="#") H5
+                    li
+                        a(href="#") 有问必答
+        //登录主界面
+        div.login_main
+            div.login_box
+                div.login_main_cont
+                    div.login_top
+                        a(href="../html/login.html") 登录
+                        a(href="#").active 注册
+                    div.login_form
+                        form
+                            div
+                                span
+                                input(type="text",placeholder="请输入手机号").kuang
+                            p.error.err
+                                em
+                                span 手机号码不能为空
+                            div.test
+                                div.code
+                                    span.yanzheng
+                                    input(type="text",placeholder="图形验证码").kuang
+                                div.ma
+                                    img(src="http://www.jingyingba.com/user/login/verify.html")
+                            p.error.err
+                                em
+                                span 验证码不能为空
+                            div.test
+                                div.code
+                                    span.yanzheng
+                                    input(type="text",placeholder="短信验证码").kuang
+                                div.ma_duanxin 获取验证码
+                            p.error.err
+                                em
+                                span 验证码不能为空
+                            div
+                                span.password
+                                input(type="password",placeholder="请输入密码").kuang
+                            p.error.err
+                                em
+                                span 密码不能为空
+                            div
+                                span.password.repassword
+                                input(type="password",placeholder="请重新输入密码").kuang
+                            p.error.err
+                                em
+                                span 密码不能为空
+                            span.r_f
+                                p.remember
+                                    input(type="checkbox",checked="checked")
+                                    label 同意网站条款
+                        button 提交
+        //尾部
+        div.footer_bottom
+            p 蓝鸥科技有限公司&copy;1997-2016丨北京市海淀区清河毛纺路路南甲36号金五星商业大厦5层
+    script(type="text/javascript",src="../js/public.js")
+
+
+
+

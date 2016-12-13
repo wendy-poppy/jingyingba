@@ -1,0 +1,924 @@
+/************************ 首页 ****************************/
+/************* 中间部分 ***************/
+.main{
+    width: 1225px;
+    margin: 0 auto;
+    /***************** bannerlogin *******************/
+    .bannerlogin{
+      height: 346px;
+      overflow: hidden;
+      position: relative;
+      margin-top:30px;
+      /***************** banner *******************/
+      .banner{
+        width: 977px;
+        height:346px;
+        position: relative;
+        float: left;
+        ul{
+          li{
+            position: absolute;
+            top:0;
+            left:0;
+            opacity:0;
+          }
+          .active{
+            opacity: 1;
+          }
+        }
+        ol{
+          position: absolute;
+          right:32px;
+          bottom: 0px;
+          li{
+            width: 15px;
+            height:15px;
+            border-radius: 50%;
+            margin-left: 10px;
+            background-color: #cfd1d6;
+            cursor: pointer;
+          }
+          .active{
+            background-color: #29b572;
+          }
+        }
+      }
+      /**************** login登录 ***************/
+      .login{
+        float: right;
+        width: 248px;
+        height:346px;
+        background-color: #fff;
+        position: relative;
+        .person_top{
+          margin-top:23px;
+          overflow: hidden;
+          a{
+            float: left;
+            margin-left:20px;
+          }
+          div{
+            font-size: 14px;
+            color: #666666;
+            margin-left:16px;
+            float: left;
+            line-height: 20px;
+          }
+        }
+        .person_login{
+          padding-left: 76px;
+          margin:0 20px;
+          padding-bottom: 12px;
+          border-bottom: 1px solid #e8e8e8;
+          margin-top: -10px;
+          a{
+            color: #029850;
+            padding:1px 10px 3px;
+          }
+          .denglu{
+            color: #fff;
+            background: #029850;
+            text-decoration: none;
+            border-radius: 2px;
+            margin-right: 15px;
+          }
+          a:hover{
+            color: #fff;
+            background: #029850;
+            text-decoration: none;
+            border-radius: 2px;
+          }
+        }
+        .person_guide{
+          margin: 10px 20px;
+          .person_guide_top{
+            margin-bottom: 20px;
+            p{
+              display: inline-block;
+            }
+            a{
+              float: right;
+              color: #666666;
+              font-size: 12px;
+            }
+          }
+          .person_guide_main{
+            overflow: hidden;
+            border-bottom: 1px solid #e8e8e8;
+            li{
+              width: 104px;
+              float: left;
+              a{
+                display: block;
+                margin-bottom: 17px;
+                text-align: center;
+                color: #808080;
+                strong{
+                  display: block;
+                  width: 104px;
+                  height:29px;
+                  background: url("../img/new_guide.png") center 0 no-repeat;
+                }
+                .tow{
+                  background: url("../img/new_guide.png") center -36px no-repeat;
+                }
+                .three{
+                  background: url("../img/new_guide.png") center -75px no-repeat;
+                }
+                .four{
+                  background: url("../img/new_guide.png") center -111px no-repeat;
+                }
+                span{
+                  font-size: 12px;
+                }
+              }
+              a:hover{
+                color: #29b572;
+                .one{
+                  background: url("../img/new_guide.png") center -149px no-repeat;
+                }
+                .tow{
+                  background: url("../img/new_guide.png") center -185px no-repeat;
+                }
+                .three{
+                  background: url("../img/new_guide.png") center -224px no-repeat;
+                }
+                .four{
+                  background: url("../img/new_guide.png") center -260px no-repeat;
+                }
+              }
+            }
+          }
+        }
+        .person_bottom{
+          margin-top: 13px;
+          margin-left:20px;
+          li{
+            margin-left:20px;
+            a{
+              text-decoration: underline;
+              color: #666666;
+            }
+            a:hover{
+              color: #029850;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      }
+    /********************* banner下面的内容 ********************/
+    .banner_bottom{
+      padding:28px 20px;
+      background: #fff;
+      margin-top:20px;
+      height:136px;
+      div{
+        width: 221px;
+        float: left;
+        margin-right:20px;
+        a{
+          display: block;
+          width:221px;
+          border-right: 1px solid #e8e8e8;
+          padding-right: 20px;
+          strong{
+            float: left;
+            display: inline-block;
+            width:58px;
+            height:58px;
+            margin-top:7px;
+            margin-right: 20px;
+            background: url("../img/list.png") 0 0 no-repeat;
+          }
+          .two{
+            background: url("../img/list.png") 0 -68px no-repeat;
+          }
+          .three{
+            background: url("../img/list.png") 0 -136px no-repeat;
+          }
+          .four{
+            background: url("../img/list.png") 0 -204px no-repeat;
+          }
+          .five{
+            background: url("../img/list.png") 0 -272px no-repeat;
+          }
+          h4{
+            color: #666666;
+            margin-bottom: 5px;
+            font-size: 14px;
+          }
+          p{
+            font-size: 12px;
+            color: #999;
+            line-height: 18px;
+          }
+        }
+      }
+      .last{
+        margin-right: 0px;
+        a{
+          border-right: none;
+        }
+      }
+    }
+    /********************* 精英吧在线课程 ***********************/
+    .online{
+      //position: relative;
+      //top:20px;
+      margin-top: 40px;
+      h2{
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      ul{
+        background: #fff;
+        padding:20px;
+        height:184px;
+        overflow: hidden;
+        li{
+          width: 225px;
+          height:144px;
+          float: left;
+          margin-right: 15px;
+          cursor: pointer;
+          background: url("../img/unity3D-bg.png");
+          a{
+            display: none;
+            width: 225px;
+            height:144px;
+            text-align: center;
+            color: #fff;
+            line-height:144px;
+            background: rgba(0,0,0,.5);
+          }
+        }
+        .two{
+          background: url("../img/iOS_bg2.png");
+        }
+        .three{
+          background: url("../img/android_bg2.png");
+        }
+        .four{
+          background: url("../img/html5_bg2.png");
+        }
+        .five{
+          background: url("../img/expect_bg.png");
+          margin-right: 0px;
+        }
+        li:hover{
+          a{
+            display: block;
+          }
+        }
+      }
+    }
+    /************ 不一样的学习方式：你学习的不仅仅是技能 ************/
+    .learningstyle{
+      margin-top:40px;
+      //position: relative;
+      //top:20px;
+      h2{
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      ul{
+        height:355px;
+        padding:40px 35px;
+        background: #fff;
+        li{
+          float: left;
+          width: 247px;
+          text-align: center;
+          float: left;
+          margin-right: 55px;
+          span{
+            display: block;
+            color: #4c4c4c;
+            font-size: 16px;
+            margin-bottom: 10px;
+            margin-top:28px;
+          }
+          p{
+            font-size: 13px;
+            color: #999999;
+            text-align: left;
+          }
+        }
+        .last{
+          margin-right: 0;
+        }
+      }
+    }
+    /********************* 就业人员信息 ***********************/
+    .obtain_user{
+      margin-top: 40px;
+      h2{
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        display: inline-block;
+        i{
+          color: #ea9b65;
+          font-style: normal;
+          margin-right: -10px;
+        }
+      }
+      span{
+        font-size: 22px;
+        color: #666666;
+      }
+      ul{
+        padding: 40px 15px;
+        height:410px;
+        background: #fff;
+          li{
+            float: left;
+            width: 200px;
+            height:326px;
+            margin-right: 47px;
+            text-align: center;
+            background: url("../img/learninguser_bg.png") 0 0 no-repeat;
+            a{
+              span{
+                display: block;
+                color: #333333;
+                font-size: 14px;
+                line-height: 24px;
+              }
+              p{
+                margin-top: 30px;
+                margin-bottom: 8px;
+                color: #333;
+              }
+              h4{
+                font-size: 20px;
+                color: #000;
+              }
+            }
+          }
+        .last{
+          margin-right: 0;
+        }
+      }
+    }
+    /********************* 合作机构 ***********************/
+    .agency{
+      margin-top:40px;
+      width: 1225px;
+      margin-bottom: 50px;
+      overflow: hidden;
+      h2{
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .box{
+        position: relative;
+        background: #fff;
+        padding:50px 35px;
+        width: 1225px;
+        .box_ul{
+          width: 1169px;
+          position: relative;
+          overflow: hidden;
+          margin: 0 auto;
+          ul{
+            width: 1670px;
+            li{
+              float: left;
+              width: 152px;
+              height:50px;
+              margin-right: 15px;
+            }
+          }
+        }
+        .agency_left{
+          background: url("../img/cooperation_left.png") no-repeat;
+          position: absolute;
+          top:50%;
+          left: 8px;
+          margin-top: -7px;
+          display: block;
+          width: 14px;
+          height:14px;
+          cursor: pointer;
+        }
+        .agency_right{
+          background: url("../img/cooperation_right.png") 0 0 no-repeat;
+          display: block;
+          width: 14px;
+          height:14px;
+          position: absolute;
+          right:8px;
+          top:50%;
+          margin-top: -7px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+/************** 回到顶部 *************/
+.to_top{
+  position: fixed;
+  bottom:20px;
+  width:60px;
+  height:294px;
+  right:247px;
+  background: #fff;
+  text-align: center;
+  ul{
+    li{
+      width: 60px;
+      height:78px;
+      padding:10px 0px;
+      border:1px solid #ededed;
+      span{
+        display: block;
+        font-size: 12px;
+        margin-top: 10px;
+        color: #29b572;
+      }
+    }
+    .publicnumber{
+      .tan_publicnumber{
+        position: absolute;
+        top:-40px;
+        right:63px;
+        display: none;
+      }
+    }
+    .publicnumber:hover{
+      background: #f5f5f5;
+      .tan_publicnumber{
+        display: block;
+      }
+    }
+    .returnto_top{
+      padding:0;
+      border:none;
+      a{
+        display: block;
+        height: 60px;
+        width: 61px;
+        background: #29b572 url("../img/totop.png") center no-repeat;
+      }
+    }
+  }
+}
+
+/******************** 用户登录login(注册redister)界面 ***************/
+/******** 头部 *******/
+.login_header{
+  width: 100%;
+  height:90px;
+  background: #fff;
+  position: relative;
+  .login_content{
+    width: 970px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+    .logo{
+      position: relative;
+      top:26px;
+      a{
+        img{
+          padding-right: 10px;
+          border-right: 1px solid #cccccc;
+        }
+        span{
+          display: inline-block;
+          margin-left:10px;
+          color: #cccccc;
+        }
+      }
+    }
+    .login_ul {
+      top: -5px;
+      float: right;
+      position: relative;
+      li {
+        margin-left: 40px;
+        a {
+          color: #808080;
+          font-size: 16px;
+        }
+        a:hover {
+          color: #29b572;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+/********* 主体 **********/
+.login_main{
+  width: 100%;
+  height:600px;
+  background: url("../img/login_bg.jpg") no-repeat;
+  position: relative;
+  .login_box{
+    width: 970px;
+    margin:0 auto;
+    .login_main_cont{
+      width: 320px;
+      position: relative;
+      top:78px;
+      float: right;
+      border:1px solid #cccccc;
+      background-color: rgba(#e9f2ec,.9);
+      .login_top{
+        height: 50px;
+        background: #fff;
+        border-bottom: 1px solid #cfcfcf;
+        a{
+          display: inline-block;
+          width:159px;
+          text-align: center;
+          line-height: 50px;
+          color: #666666;
+        }
+        .active{
+          line-height: 48px;
+          border-bottom: 2px solid #29b572;
+          color: #29b572;
+          font-size:16px;
+        }
+        a:hover{
+          line-height: 48px;
+          border-bottom: 2px solid #29b572;
+          color: #29b572;
+          font-size:16px;
+        }
+      }
+      .login_form{
+        padding:35px 30px;
+        //display: none;
+        form{
+          div{
+            width: 258px;
+            height:40px;
+            margin-bottom: 15px;
+            padding:9px 0;
+            border:1px solid #cccccc;
+            background: #fff;
+            position: relative;
+            span{
+              float: left;
+              display: inline-block;
+              width: 16px;
+              height:20px;
+              margin-left: 10px;
+              margin-right: 12px;
+              padding-right: 10px;
+              //border-right: 1px solid #e8e8e8;
+              background: url("../img/15ico_bg.png") 0 2px no-repeat;
+            }
+            .password{
+              background: url("../img/15ico_bg.png")0 -23px no-repeat;
+            }
+            .repassword{
+              background: url("../img/15ico_bg.png")0 -117px no-repeat;
+            }
+            input{
+               float: left;
+               width: 212px;
+               height:20px;
+               border:none;
+               outline: medium;
+             }
+          }
+          .test{
+            //overflow: hidden;
+            border:none;
+            background: none;
+            position: relative;
+            padding:0;
+            .code{
+              width: 158px;
+              height:40px;
+              span{
+                width: 14px;
+                height: 20px;
+                background: url(../img/15ico_bg.png) no-repeat 0px -47px;
+              }
+              input{
+                width: 110px;
+              }
+            }
+            .ma{
+              position: absolute;
+              top:0;
+              right:0;
+              width: 90px;
+              height: 38px;
+              cursor: pointer;
+              line-height: 20px;
+              text-align: center;
+              background: #68b71a;
+              font-size: 20px;
+              color: purple;
+              // img{
+              //   width: 100%;
+              //   height: 100%;
+              //   position: absolute;
+              //   top:0;
+              //   right:0;
+              // }
+            }
+            .ma_duanxin{
+              position: absolute;
+              top:1px;
+              right:0;
+              width: 90px;
+              height: 38px;
+              cursor: pointer;
+              background: #fff;
+              text-align: center;
+              border: 1px solid #cccccc;
+              border-radius: 5px;
+              color: #029850;
+            }
+            .ma_duanxin:hover{
+              border: 1px solid #029850;
+              background: #f8f8f8;
+            }
+          }
+          .error{
+            display: none;
+            color: red;
+            font-size: 12px;
+            margin-top: -5px;
+            em{
+              display: inline-block;
+              width:14px;
+              height:14px;
+              margin-right: 5px;
+              margin-bottom: -3px;
+              background: url("../img/15ico_bg.png") -1px -146px no-repeat;
+            }
+          }
+          span{
+            position: relative;
+            overflow: hidden;
+            color: #848585;
+            .remember{
+              float: left;
+            }
+            .forget{
+              float: right;
+            }
+          }
+        }
+        button{
+          display: inline-block;
+          width: 260px;
+          height:40px;
+          background: #029850;
+          color: #fff;
+          margin: 0 auto;
+          margin-top:20px;
+          border:none;
+          outline:none;
+        }
+      }
+    }
+  }
+}
+/********* 尾部 **********/
+.footer_bottom{
+  width: 100%;
+  border-top: 1px solid #e8e8e8;
+  text-align: center;
+  height: 70px;
+  padding-top: 20px;
+  color: #808080;
+  font-size: 13px;
+}
+
+/************************* 课程列表 **************************/
+.course_list{
+  width: 1225px;
+  margin:0 auto;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .course_top{
+    height:366px;
+    background: #fff;
+    padding:15px;
+    position: relative;
+    img{
+      float: left;
+      margin-right: 30px;
+    }
+    .course_top_right{
+      float: left;
+      h2{
+        font-size: 24px;
+      }
+      .classhour{
+        float: left;
+        margin-top:120px;
+        color: #666666;
+        padding-right: 30px;
+        border-right: 1px solid #cccccc;
+        span{
+          font-size: 20px;
+        }
+      }
+      .learntime{
+        float: left;
+        color: #666666;
+        margin-top:120px;
+        margin-left:30px;
+        span{
+          font-size: 20px;
+        }
+      }
+    }
+    .progressbar_box{
+      width: 1195px;
+      height: 78px;
+      background: #b3b3b3;
+      position: absolute;
+      bottom:15px;
+      left:15px;
+      .progressbar{
+        width: 1158px;
+        height: 10px;
+        border-radius: 10px;
+        background: #fff;
+        position: relative;
+        top:50%;
+        left:18px;
+        margin-top: -5px;
+      }
+      .progressbar_color{
+        position: absolute;
+        top:50%;
+        left:18px;
+        margin-top: -5px;
+        background: #46d993;
+        width: 0px;
+        height:10px;
+        border-radius: 10px;
+      }
+     }
+  }
+  .course_box{
+    margin-top:30px;
+    position: relative;
+    .course_main{
+      width: 915px;
+      padding:30px 20px;
+      background: #fff;
+      ul{
+        li{
+          a{
+            font-size: 18px;
+            h3{
+              width: 72px;
+              height:40px;
+              background: #3faf7a;
+              color: #fff;
+              text-align: center;
+              line-height:40px;
+              display: inline-block;
+              font-size: 18px;
+            }
+            .title{
+              display: inline-block;
+              color: #6a6a6a;
+              padding-left: 12px;
+              width: 800px;
+              height:40px;
+              line-height:40px;
+              background: #f5f5f5;
+            }
+            .p_main{
+              height: 100px;
+              color: #999999;
+              font-size: 14px;
+              overflow: hidden;
+              em{
+                width: 22px;
+                height:16px;
+                margin-top:32px;
+                margin-left:39px;
+                float: left;
+                background: #c5f1dc url(../img/play.png) no-repeat center;
+              }
+              span{
+                float: left;
+                width: 650px;
+                margin-top:30px;
+                color: #999999;
+                margin-left: 12px;
+              }
+              i{
+                float: right;
+                color: #999999;
+                font-size: 14px;
+                cursor: pointer;
+                margin-top:30px;
+              }
+              strong{
+                display: none;
+                float: right;
+                width: 110px;
+                height:36px;
+                border-radius: 20px;
+                border:1px solid #029850;
+                text-align: center;
+                line-height:36px;
+                font-size: 14px;
+                margin-top:20px;
+                cursor: pointer;
+                color: #029850;
+              }
+            }
+          }
+          a:hover{
+            em{
+              background: #3faf7a url(../img/play.png) no-repeat center;
+            }
+            span{
+              color: #6a6a6a;
+            }
+            i{
+              display: none;
+            }
+            strong{
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    .course_main_right{
+      position: absolute;
+      top:0;
+      right:0;
+      .learninguser{
+        width: 295px;
+        height:428px;
+        background: #fff;
+        .learninguser_top{
+          height:45px;
+          background: #3faf7a;
+          font-size: 16px;
+          padding-left: 16px;
+          line-height:45px;
+          color: #fff;
+        }
+        .message{
+          padding:5px 0px;
+          li{
+            float: left;
+            width: 115px;
+            text-align: center;
+            h3{
+              margin-bottom: 22px;
+              color: #333333;
+              font-size: 14px;
+              width: 115px;
+              height:20px;
+              line-height: 20px;
+              border-right: 1px solid #e9e9e9;
+            }
+            span{
+              display: block;
+              color: #a1a1a1;
+              line-height: 27px;
+              font-size: 14px;
+            }
+          }
+          .last{
+            width: 60px;
+            h3{
+              border-right: none;
+              width: 60px;
+            }
+          }
+        }
+      }
+      .mail{
+        position: relative;
+        top:20px;
+        width: 295px;
+        height:158px;
+        background: #fff;
+      }
+    }
+  }
+}
+
+
+
+
+
